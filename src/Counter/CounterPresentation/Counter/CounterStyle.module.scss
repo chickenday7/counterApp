@@ -1,0 +1,51 @@
+.wrapper{
+  width: 40%;
+  height: 100%;
+  border: aqua 1px solid;
+  border-radius: 10px;
+}
+
+.window{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 90%;
+  height: 50%;
+  border: aqua 1px solid;
+  border-radius: 15px;
+
+}
+.buttonArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  height: 35%;
+  border: aqua 1px solid;
+  border-radius: 15px;
+  margin: auto;
+}
+.number{
+  color: aqua;
+  font-size: 60px;
+}
+.button{
+  width: 40%;
+  margin: 10px;
+  height: 80%;
+  background: #282c34;
+  border: aqua 2px solid;
+  border-radius: 20px;
+}
+.textButton{
+  color:aqua ;
+  font-size: 20px;
+}
+.textWindow{
+  color: aqua;
+  font-size: 28px;
+}
+.red{
+  color: red;
+}

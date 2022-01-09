@@ -1,0 +1,49 @@
+.wrapper{
+  width: 40%;
+  height: 100%;
+  border: aqua 1px solid;
+  border-radius: 10px;
+}
+
+.window{
+  margin: 15px auto;
+  width: 90%;
+  height: 50%;
+  border: aqua 1px solid;
+  border-radius: 15px;
+}
+.buttonArea{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: 90%;
+  height: 35%;
+  border: aqua 1px solid;
+  border-radius: 15px;
+  margin: auto;
+}
+.button{
+  width: 40%;
+  margin: 10px;
+  height: 80%;
+  background: #282c34;
+  border: aqua 2px solid;
+  border-radius: 20px;
+}
+.textButton{
+  color: aqua;
+  font-size: 20px;
+}
+.inputArea{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.input{
+  width: 150px;
+  height: 25px;
+}
+.textValue{
+  color: aqua;
+  margin-right: 50px;
+}
