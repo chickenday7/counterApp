@@ -17,8 +17,6 @@ export const CounterPresentation = (props:ICounterPresentation) => {
                      error={props.error}
                      minValue={props.minValue}
                      isChanges={props.isChanges}
-
-
             />
             <SettingsCounter minValue={props.minValue}
                              maxValue={props.maxValue}
